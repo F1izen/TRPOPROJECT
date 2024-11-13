@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="css/Registrat.css">
+</head>
+<body>
+    <ul class="spisok">
+        <li><a href = "/Onas.html"><p class = "onas">О нас</p></a></li>
+        <li><a href = "/Glavnaya.html"> Главная</a></li>
+        <li><a href = "/Girl.html"> Женщинам</a></li>
+        <li><a href = "/Men.html"> Мужчинам</a></li>
+        <li><a href = "/Gids.html"> Детям</a></li>
+        
+        <br> 
+    </ul>
+    <div class="create-line"></div>
+    <p class="Nazv">SneakersShop</p>
+    <div class="container">
+        <h1>Регистрация</h1>
+        <form id="registrationForm">
+            <div class="input-group">
+                <label for="email">Ваш E-mail / номер телефона</label>
+                <input type="text" id="email" placeholder="">
+                <span class="error-message" id="emailError"></span>
+            </div>
+            <div class="input-group">
+                <label for="password">Придумайте пароль</label>
+                <input type="password" id="password" placeholder="">
+                <span class="error-message" id="passwordError"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" class="login-btn" onclick="window.location.href='vhod.html'">Вход</button>
+                <button type="submit" class="register-btn">Зарегистрироваться</button>
+            </div>
+        </form>
+    </div>
+    <script>
+        document.getElementById('registrationForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            document.getElementById('emailError').textContent = '';
+            document.getElementById('passwordError').textContent = '';
+
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            let isValid = true;
+
+            if (!emailPattern.test(email)) {
+                document.getElementById('emailError').textContent = 'Пожалуйста, введите корректный E-mail!';
+                isValid = false;
+            }
+
+            if (password.length < 6) {
+                document.getElementById('passwordError').textContent = 'Пароль должен содержать как минимум 6 символов!';
+                isValid = false;
+            }
+            if (isValid) {
+                alert('Форма успешно отправлена!');
+                window.location.href = 'Glavnaya.html';
+            }
+        });
+    </script>
+    
+</body>
+</html>

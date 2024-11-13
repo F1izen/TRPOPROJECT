@@ -1,0 +1,44 @@
+
+body{
+    background-image: url('https://img.freepik.com/premium-photo/abstract-dark-background-with-glowing-white-lines-dots-forming-geometric-pattern_1174990-199187.jpg?semt=ais_hybrid');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.spisok{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+margin-top:3px;
+}
+.spisok:hover{
+    color:aqua;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Agdasima", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    margin-left: 200px;
+}
+.onas{
+    margin-top: -20px;
+}
+.create-line {
+    width: 1890px;
+    margin-top: -20px;
+    border-top: 3px solid #fff;
+  }
+  .like{
+    width: 33px;
+    height: 35px;
+    margin-left: 450px;
+}
+.Nazv{
+    color:#8378d8;
+    font-size: 50px;
+    margin-top: -5px;
+}

@@ -1,0 +1,150 @@
+body{
+    background-image: url('https://img.freepik.com/premium-photo/abstract-dark-background-with-glowing-white-lines-dots-forming-geometric-pattern_1174990-199187.jpg?semt=ais_hybrid');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.spisok{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+margin-top:3px;
+}
+.spisok:hover{
+    color:aqua;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Agdasima", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    margin-left: 170px;
+}
+.onas{
+    margin-top: -20px;
+}
+.create-line {
+    width: 1890px;
+    margin-top: -20px;
+    border-top: 3px solid #fff;
+  }
+ 
+.korz{
+    width: 30px;
+    height: 30px;
+    margin-left: 400px;
+}
+.Nazv{
+    color:#8378d8;
+    font-size: 50px;
+    margin-top: -5px;
+}
+.like{
+width: 40px;
+height: 35px;
+margin-left: 4px;
+}
+.Nazvk{
+color:#8378d8;
+font-size: 50px;
+margin-left: 730px;
+margin-top: -100px;
+}
+.create-line1{
+    border-top: 3px solid #fff;
+    width: 1000px;
+    margin-left: 500px;
+    margin-top:-50px;
+}
+.search-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ff00aa;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px 0 0 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+.search-container button {
+    background-color: #8378d8;
+    /* Розовый цвет */
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 11px 20px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    font-size: 20px;
+}
+
+.search-container button:hover {
+    background-color: #9f5ebd;
+    /* Темнее при наведении */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    width:  700px;
+    /* Можно изменить размер */
+    margin-left: 650px;
+    margin-top: 0px;   
+}
+.Brends{
+  color: #fff;
+  font-size: 30px;
+  margin-left: 80px;
+}
+.create-line2{
+    border-top: 3px solid #fff;
+    width: 240px;
+    margin-top: -40px;
+    margin-left: 10px;
+}
+.create-line3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    margin: 0;
+    width: 4px; 
+    height: 55%; 
+    margin-left: 260px;
+    margin-top: -50px;
+}
+.create-line4{
+    border-top: 3px solid #fff;
+    width: 240px;
+    margin-top: -26px;
+    margin-left: 1630px;
+}
+.create-line5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    margin: 0;
+    width: 4px; 
+    height: 55%; 
+    margin-left: 1615px;
+    margin-top: -50px;
+}
+.Model{
+    color: #fff;
+    font-size: 30px;
+    margin-left: 1705px;
+    margin-top: -530px;
+}
